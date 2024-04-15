@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class MetodosOrdenamiento {
     ///1. Metodo que devuelve un arreglo de
     ///enteros ordenados por burbuja
@@ -45,19 +45,7 @@ public class MetodosOrdenamiento {
         }
         System.out.println();
     }
-    public void imprimir(){
-        int num;
-        Scanner imprimirScanner=new Scanner(System.in);
-        System.out.println("Introduzca -1- para el procedimiento o -2- para solo sacar la lista.");
-        num=imprimirScanner.nextInt();
-        if(num==1){
-            System.out.println(sorbyBubble(null, false));
-
-           
-        }
-        if(num==2){
-            System.out.println("1");
-        }
+    
         
-    }
+    
 }
